@@ -1,0 +1,15 @@
+.popup__input-button{
+	border: none;
+	padding: 0;
+	min-height: 50px;
+	background-color: rgb(0, 0, 0);
+	color: #fff;
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.popup__input-button:hover{
+	background-color: rgba(0, 0, 0, 0.8);
+}
