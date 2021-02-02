@@ -11,4 +11,4 @@
  2. создали функцию по редактированию и сохранению информации
 
 
-ссылка на проект : https://coddyone.github.io/mesto/index.htmlgit 
+ссылка на проект : https://coddyone.github.io/mesto/index.html
