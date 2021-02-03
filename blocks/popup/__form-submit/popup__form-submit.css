@@ -1,4 +1,4 @@
-.popup__input-button{
+.popup__form-submit{
 	border: none;
 	padding: 0;
 	min-height: 50px;
@@ -10,6 +10,7 @@
 	line-height: 22px;
 }
 
-.popup__input-button:hover{
-	background-color: rgba(0, 0, 0, 0.8);
+.popup__form-submit:hover{
+	cursor: pointer;
+	opacity: .8;
 }

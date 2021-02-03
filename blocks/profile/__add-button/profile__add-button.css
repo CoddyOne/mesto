@@ -9,7 +9,7 @@
 
 .profile__add-button:hover{
 	cursor: pointer;
-	background-image: url(../../../images/profile__add-button-hover.svg);
+	opacity: .6;
 }
 
 @media screen and (min-width:320px) and (max-width:650px){

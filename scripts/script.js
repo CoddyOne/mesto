@@ -8,26 +8,23 @@ let profileJob = document.querySelector('.profile__job')
 let formElement = document.querySelector('.popup__form')
 
 let popupOpen = function(){
-	popup.classList.toggle('popup_opened')
-}
-popupOpen()
-editButton.addEventListener('click', popupOpen)
-closeButton.addEventListener('click', popupOpen)
-
-let editPopup = function(){
+	popup.classList.add('popup_opened')
 	inputName.value = profileName.textContent
 	inputJob.value = profileJob.textContent	
 }
-editPopup()
+
+let popupClose = function(){
+	popup.classList.remove('popup_opened')
+}
 
 function formSubmitHandler (evt){
 	evt.preventDefault();
 	profileName.textContent = inputName.value
 	profileJob.textContent = inputJob.value
-	
-	let popupOpen = function(){
-		popup.classList.toggle('popup_opened')
+	popupOpen()
+	popupClose()
 }
-popupOpen()
-}
+
+editButton.addEventListener('click', popupOpen)
+closeButton.addEventListener('click', popupClose)
 formElement.addEventListener('submit', formSubmitHandler)
