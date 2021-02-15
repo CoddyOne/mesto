@@ -1,9 +1,11 @@
 .elements__button-like{
 	border: none;
-	background-color: #fff;
+	background-image: url('../../../images/Heart.svg');
+	width: 22px;
+	height: 19px;
 }
 
 .elements__button-like:hover{
 	cursor: pointer;
-	opacity: .5;
+	opacity: .6;
 }

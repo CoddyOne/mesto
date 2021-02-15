@@ -1,0 +1,13 @@
+.elements__urn-btn{
+	background-image: url("../../../images/element__urn-button.svg");
+	width: 18px;
+	height: 19px;
+	position: absolute;
+	top: 18px;
+	right: 15px;
+}
+
+.elements__urn-btn:hover{
+	cursor: pointer;
+	opacity: .6;
+}
