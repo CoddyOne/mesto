@@ -170,7 +170,7 @@ function handleLike(evt){
 	
 //попапа с фото//
 const popupPhoto = document.querySelector('.popup_photo');
-const popupPhotoTitle = document.querySelector('.popup__title_photo');
+const popupPhotoTitle = document.querySelector('.popup__title-photo');
 const popupPhotoImage = document.querySelector('.popup__image');
 const imageCloseBtn = document.querySelector('.popup__close-button_photo');
 //открытие попапа с фото
